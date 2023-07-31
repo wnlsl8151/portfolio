@@ -1,0 +1,64 @@
+@charset 'urf-8';
+
+@keyframes html {
+  0%{
+    width: 0;
+  }
+
+  100%{
+    width: 85%;
+  }
+}
+
+@keyframes css {
+  0%{
+    width: 0;
+  }
+
+  100%{
+    width: 90%;
+  }
+}
+
+@keyframes java {
+  0%{
+    width: 0;
+  }
+
+  100%{
+    width: 80%;
+  }
+}
+
+@keyframes hot {
+  0%{
+    color: lightcoral;
+  }
+
+  25%{
+    color: lightgreen;
+  }
+
+  50%{
+    color: lightpink;
+  }
+
+  75%{
+    color: lightsalmon;
+  }
+
+  100%{
+    color: lightseagreen;
+  }
+
+}
+
+@keyframes top {
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}

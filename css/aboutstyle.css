@@ -1,0 +1,334 @@
+@charset 'urf-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+
+.wrap{
+  overflow: hidden;
+}
+
+.btn{
+  position: fixed;
+  z-index: 1000;
+}
+
+button{
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 30px;
+  opacity: 0.5;
+}
+
+.container{
+  position: relative;
+  margin-bottom: 100px;
+}
+
+h1{
+  position: absolute;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  padding-top: 170px;
+  margin-left: 20px;
+  color: lightpink;
+  float: left;
+  font-family: 'Cute Font', cursive;
+}
+
+h2{
+  margin-left: 10px;
+  opacity: 0.2;
+  font-size: 30px;
+  font-family: 'Cute Font', cursive;
+}
+
+.container .img-box{
+  z-index: 999;
+}
+
+.container .back-img{
+  display: none;
+}
+
+.container .img-box img{
+  width: 200px;
+  height: 300px;
+  float: right;
+  margin-right: 20px;
+}
+
+.container .back{
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  background: lightblue;
+  opacity: 0.3;
+  right: 45px;
+  top: 15%;
+  z-index: -999;
+}
+
+.container p{
+  position: absolute;
+  display: flex;
+  right: 0;
+  flex-flow: column nowrap;
+  font-size: 5px;
+  font-weight: 600;
+}
+
+.sec01{
+  position: relative;
+  margin-bottom: 80px;
+  font-family: 'Cute Font', cursive;
+}
+
+.sec01 h2{
+  position: absolute;
+  top: 0;
+  left: 10px;
+  color: #000;
+  opacity: 0.2;
+  font-size: 30px;
+}
+
+.sec01 img{
+  margin-bottom: 15px;
+}
+
+.sec01 img:nth-of-type(2),.sec01 img:nth-of-type(3){
+    display: none;
+  }
+
+.sec01 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+.sec02{
+  position: relative;
+  font-family: 'Cute Font', cursive;
+  margin-bottom: 80px;
+}
+
+.sec02 img{
+  width: 150px;
+  margin-left: 30px;
+}
+
+.sec02 h2{
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+
+.sec02 p{
+  position: absolute;
+  top: 70px;
+  right: 0;
+  color: lightcoral;
+}
+
+.sec03{
+  position: relative;
+  margin-bottom: 500px;
+}
+
+.sec03 .img-box04 img{
+  width: 150px;
+  position: absolute;
+  left: 37%;
+  top: 50px;
+}
+
+.sec03 p{
+  font-family: 'Cute Font', cursive;
+  position: absolute;
+  text-align: center;
+}
+
+.sec03 .text-bot{
+  margin-top: 250px;
+  margin-left: 10%;
+}
+
+.sec03 span{
+  font-size: 30px;
+}
+
+.sec03 .last-top{
+  top: 150px;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 30px;
+  color: cadetblue;
+}
+
+.sec03 .last-bot{
+  top: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sec03 .last-bot span{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.footer{
+  text-align: center;
+}
+
+.footer .last{
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  background: lightblue;
+}
+
+address{
+  background: lightslategray;
+  font-style: normal;
+  font-size: 14px;
+  color: aliceblue;
+  font-family: 'Cute Font', cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+
+@media (min-width:768px) {
+  h1{
+    font-size: 60px;
+    line-height: 60px;
+    margin-left: 15%;
+    color: lightblue;
+  }
+
+  .container .img-box img{
+    margin-right: 15%;
+  }
+
+  .container .back{
+    background: lightsalmon;
+  }
+
+  .sec01 img:nth-of-type(2){
+    display: block;
+    height: auto;
+  }
+
+  .sec01 img:first-child,.sec01 img:last-of-type{
+    display: none;
+  }
+
+  .sec02 img{
+    width: 40%;
+    margin-left: 10%;
+  }
+
+  .sec02 h2{
+    margin-left: 10%;
+  }
+
+  .sec02 p{
+    margin-right: 10%;
+    font-size: 20px;
+  }
+
+  .sec03 .img-box04 img{
+    width: 30%;
+    margin-left: 250px;
+  }
+
+  .sec03 h2{
+    margin-left: 10%;
+  }
+
+  .sec03 .last-top{
+    margin-left: 15%;
+    color: lightseagreen;
+  }
+
+  .sec03 .last-bot{
+    margin-left: 5%;
+  }
+
+  .sec03 .text-bot{
+    margin-top: 100px;
+  }
+}
+
+
+@media (min-width:1200px) {
+  h1{
+    font-size: 100px;
+    line-height: 90px;
+    padding-top: 100px;
+    color: lightslategray;
+  }
+
+  .container .img-box img{
+    display: block;
+  }
+
+  .container .back{
+    display: block;
+    right: 350px;
+  }
+
+  .container .back-img{
+    display: block;
+    margin-bottom: 250px;
+    width: 95%;
+    margin: 0 auto 250px auto;
+  }
+
+  .sec01 img:last-of-type{
+    display: block;
+    width: 95%;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .sec01 img:nth-of-type(2){
+    display: none;
+  }
+
+  .sec01 h2{
+    color: #fff;
+    opacity: 0.8;
+    margin-left: 5%;
+    font-size: 35px;
+  }
+
+  .sec01 p{
+    font-size: 20px;
+  }
+
+  .sec02 img{
+    width: 30%;
+  }
+
+  .sec02 p{
+    font-size: 30px;
+    padding-top: 10%;
+    color: lightslategray;
+  }
+
+  .sec03 .img-box04 img{
+    width: 15%;
+    left: 0;
+  }
+
+  .sec03 .text-bot{
+    right: 10%;
+  }
+
+  .sec03 span{
+    font-size: 50px;
+  }
+}
